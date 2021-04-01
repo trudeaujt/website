@@ -1,7 +1,7 @@
 import React from "react"
 import image from "../bg.jpeg";
 
-//@TODO make it so it doesn't scroll down
+//@TODO floating scrollbar so it doesn't scroll down
 export default function Home() {
     return (
         <main>
