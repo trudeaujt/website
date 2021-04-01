@@ -32,9 +32,8 @@ export default function Project() {
                         <article className="relative rounded-lg shadow-xl bg-white p-16">
                             <h3 className="text-gray-800 text-3xl font-bold bg-2 hover:text-red-700">
                                 <a href={project.link}
-                                   alt={project.title}
                                    target="_blank"
-                                   rel="noopener norefferer"
+                                   rel="noopener noreferrer"
                                 >
                                     {project.title}
                                 </a>
