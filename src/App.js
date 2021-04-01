@@ -4,10 +4,12 @@ import About                          from "./components/About"
 import SinglePost                     from "./components/SinglePost"
 import Post                           from "./components/Post"
 import Project                        from "./components/Project"
+import NavBar                         from "./components/NavBar"
 
 function App() {
     return (
         <BrowserRouter>
+            <NavBar/>
             <Switch>
                 <Route component={Home} path='/'
                        exact/> {/*exact for home so it won't get confused with the other pages*/}
